@@ -1,0 +1,15 @@
+{
+  "name": "genpark-embodied-spatial-3d-occupancy-grid-solver-skill",
+  "version": "1.0.0",
+  "description": "Physical AI 3D spatial occupancy voxel grid mapping with 3D Bresenham raycasting, Bayesian log-odds occupancy updating, and sphere collision solver.",
+  "tools": [
+    {
+      "name": "update_raycasts",
+      "description": "Integrate depth sensor point cloud rays into voxel occupancy grid."
+    },
+    {
+      "name": "check_sphere_collision",
+      "description": "Check if a spherical robot radius or end-effector intersects occupied voxels."
+    }
+  ]
+}
